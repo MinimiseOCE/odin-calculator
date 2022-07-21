@@ -31,10 +31,12 @@ body {
 #subtext {
     height: 30%;
     padding-left: auto;
+    flex-wrap: wrap;
 }
 
 #text {
     height: 70%;
+    flex-wrap: wrap;
 }
 
 .display {
@@ -51,6 +53,7 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+    overflow: hidden;
 }
 
 #text {
